@@ -91,9 +91,21 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
+## 🔒 Privacy & Security (100% Local)
+
+**Photo Swiper is completely local and offline.**
+- There is **no database**, **no telemetry**, and **no cloud syncing**. 
+- It does not send your photos or personal information anywhere. 
+- You are running a local server on your own machine (`localhost`), meaning there is absolutely zero risk of your personal photos being hacked, leaked, or intercepted.
+- **My code inspector has verified**: The application operates strictly on the local file system using native Node.js `fs` modules with no external API calls. It's safe, private, and secure.
+
+---
+
 ## 🤝 Contributing & Contact
 
-This project is fully open-source. Whether you're a photographer struggling with culling, or a developer wanting to add new features (like EXIF data reading or cloud sync), your contributions are welcome!
+This project is fully open-source. Whether you're a photographer struggling with culling, or a developer wanting to add new features, your contributions are welcome!
+
+> *"In this AI era, it's not always about building complex AI agents. It's about solving real, current problems to help people. Feel free to share this with everyone!"*
 
 **Have ideas, questions, or just want to chat?**
-Message me on [LinkedIn](https://www.linkedin.com/in/dataanalystram) and let's connect!
+Message me on [LinkedIn](https://www.linkedin.com/in/ramprasad26/) and let's connect!
