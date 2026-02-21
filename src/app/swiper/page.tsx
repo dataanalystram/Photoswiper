@@ -323,7 +323,7 @@ export default function SwiperPage() {
 
                 {/* Controls */}
                 {!isFinished && files.length > 0 && (
-                    <div className="absolute bottom-6 flex items-center justify-center space-x-8 w-full pointer-events-none">
+                    <div className="absolute bottom-6 flex items-center justify-center space-x-8 w-full pointer-events-none z-50">
                         <div className="flex flex-col items-center space-y-2 pointer-events-auto opacity-50 hover:opacity-100 transition">
                             <button
                                 onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
